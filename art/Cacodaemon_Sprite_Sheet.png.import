@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjs4svbiwj6ti"
-path="res://.godot/imported/enemySwimming_2.png-4c0cbc0732264c4ea3290340bd4a0a62.ctex"
+uid="uid://byhqus6v4xret"
+path="res://.godot/imported/Cacodaemon_Sprite_Sheet.png-199d455ebae5ee04f2ec3b6b03a409bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/enemySwimming_2.png"
-dest_files=["res://.godot/imported/enemySwimming_2.png-4c0cbc0732264c4ea3290340bd4a0a62.ctex"]
+source_file="res://art/Cacodaemon_Sprite_Sheet.png"
+dest_files=["res://.godot/imported/Cacodaemon_Sprite_Sheet.png-199d455ebae5ee04f2ec3b6b03a409bb.ctex"]
 
 [params]
 

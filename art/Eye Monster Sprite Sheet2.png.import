@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d7d5q6nqil5x"
-path="res://.godot/imported/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.ctex"
+uid="uid://cjh75ox74s25a"
+path="res://.godot/imported/Eye Monster Sprite Sheet2.png-12580ab5ae59254023fc64674c074236.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/playerGrey_walk1.png"
-dest_files=["res://.godot/imported/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.ctex"]
+source_file="res://art/Eye Monster Sprite Sheet2.png"
+dest_files=["res://.godot/imported/Eye Monster Sprite Sheet2.png-12580ab5ae59254023fc64674c074236.ctex"]
 
 [params]
 

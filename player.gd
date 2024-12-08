@@ -29,7 +29,7 @@ func _process(delta: float) -> void:
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
 
-	$AnimatedSprite2D.rotate(-$AnimatedSprite2D.global_rotation)
+	$AnimatedSprite2D.rotation = 0
 
 	if velocity.length() == 0:
 		$AnimatedSprite2D.animation = "idle"
@@ -43,16 +43,17 @@ func _process(delta: float) -> void:
 		$AnimatedSprite2D.flip_v = false
 
 		$AnimatedSprite2D.flip_h = velocity.x < 0
-
-	if velocity.y != 0:
+	elif velocity.y != 0:
 		$AnimatedSprite2D.animation = "up"
 		$AnimatedSprite2D.flip_v = velocity.y > 0
 		$AnimatedSprite2D.flip_h = false
 
 		if velocity.y > 0:
-			$AnimatedSprite2D.rotate(PI/2)
+			#$AnimatedSprite2D.rotate(PI/2)
+			$AnimatedSprite2D.rotation = PI/2
 		else:
-			$AnimatedSprite2D.rotate(-PI/2)
+			#$AnimatedSprite2D.rotate(-PI/2)
+			$AnimatedSprite2D.rotation = -PI/2
 
 
 func _on_body_entered(_body: Node2D) -> void:
